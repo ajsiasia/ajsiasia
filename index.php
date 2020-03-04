@@ -11,7 +11,7 @@ $load = (isset($_GET['page'])&& $_GET['page'] !='')? $_GET['page'] : '';
 	<div class="w3-bar w3-green w3-top" >
 			<li class="w3-bar-item w3-button" style=" float: right"><a href="index.php?page=home">Home</a></li>
 			<li class="w3-bar-item w3-button"><a href="index.php?page=list">Products</a></li>
-			<li class="w3-bar-item w3-button"><a href="index.php?page=create">Customize Product</a></li>
+			<li class="w3-bar-item w3-button"><a href="index.php?page=create">Add Product</a></li>
 	</div>
 <?php
 	switch($load){
